@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html >
+<!--From https://codepen.io/frytyler/pen/EGdtg-->
+<head>
+  <meta charset="UTF-8">
+  <title>ML Compression</title>
+    <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="{{ url_for('static', filename='static/css/main.css') }}">
+
+
+</head>
+
+<body bgcolor="red">
+    <div class="login">
+    <style>
+    h1 {text-align: center;}
+    p {text-align: center;}
+    </style>
+        <h1>Compression Prediction</h1>
+
+
+
+
+     <!-- Main Input For Receiving Query to our ML -->
+    <form action="{{ url_for('predict')}}" method="post">
+        <p> <input type="text" name="cement" placeholder="cement" required="required" /></p>
+        <p> <input type="text" name="slag" placeholder="slag" required="required" /></p>
+        <p><input type="text" name="flyash" placeholder="flyash" required="required" /></p>
+        <p><input type="text" name="water" placeholder="water" required="required" /></p>
+        <p><input type="text" name="superplasticier" placeholder="superplasticier" required="required" /></p>
+        <p><input type="text" name="coarseaggregate" placeholder="coarseaggregate" required="required" /></p>
+        <p><input type="text" name="fineaggregate" placeholder="fineaggregate" required="required" /></p>
+        <p><input type="text" name="age" placeholder="age" required="required" /></p>
+
+
+        <p><button type="submit"  style="height: 50px; width: 200px; left: 50; top: 50;" class="btn btn-primary btn-block btn-large">Click for Result of compression</button></p>
+     </form>
+   <br>
+   <br>
+<p>{{ prediction_text }}</p>
+
+ </div>
+
+
+</body>
+</html>
