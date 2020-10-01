@@ -36,6 +36,7 @@ Name -- Data Type -- Measurement -- Description
 # Technical Aspect
 
 Content
+```diff
 1)Data Cleaning
 1.1) Finding Out missing values
 1.1) Finding Outliers and adjusting outliers
@@ -43,6 +44,7 @@ Content
 3) Feature Engineering - Gaussian Transformation
 4) Feature Selection
 5) Algorithm
+```
 
 # Installation
 
