@@ -31,3 +31,59 @@ Name -- Data Type -- Measurement -- Description
 - Coarse Aggregate (component 6) -- quantitative -- kg in a m3 mixture -- Input Variable
 - Fine Aggregate (component 7) -- quantitative -- kg in a m3 mixture -- Input Variable
 - Age -- quantitative -- Day (1~365) -- Input Variable
+
+
+# Technical Aspect
+
+# Installation
+
+To install the required packages and libraries, run this command in the project directory after cloning the repository:
+```diff
+pip install -r requirements.txt
+```
+
+- Create and Pickle a Machine Learning Model
+```diff
+import pickle
+pickle.dump(model, open(‘model.pkl’, ‘wb’))
+```
+
+# Write Flask App
+
+Open up your jupyter notebook and create a new .py file inside the working directory named app.py
+
+The structure of the code follows:
+
+```diff
+Load pickled model
+Name Flask app
+Create route predict
+Create Template
+```
+
+# Procfile
+A Procfile specifies the commands that are executed by a Heroku app on startup. To create one, open up a new file named Procfile (no extension) in the working directory and paste the following. streamlit command to run our app
+
+```diff
+  web: gunicorn app:app
+```
+
+# Create requirements.txt
+```diff
+The requirements.txt file will contain all of the dependencies for the flask app. To create a requirements.txt, run the following in your terminal from the working directory:
+```
+
+# Deployment in local machine using Streamlit
+
+```diff
+python run -- app.py
+```
+
+# Deployment of machine learning model in Heroku using Streamlit
+
+
+1) First Create app name
+2) Make sure it is connected to GitHub
+<img src='photos/github.png' width="700" height="400">
+3) Then click press on Deploy
+
