@@ -35,6 +35,15 @@ Name -- Data Type -- Measurement -- Description
 
 # Technical Aspect
 
+Content
+1)Data Cleaning
+1.1) Finding Out missing values
+1.1) Finding Outliers and adjusting outliers
+2) Data Exploration
+3) Feature Engineering - Gaussian Transformation
+4) Feature Selection
+5) Algorithm
+
 # Installation
 
 To install the required packages and libraries, run this command in the project directory after cloning the repository:
