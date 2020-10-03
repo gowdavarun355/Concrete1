@@ -17,7 +17,7 @@
 
 https://compressive.herokuapp.com/
 
-<img src='photos/compresssion1.png' width="700" height="400">
+<img src='photos/compression5.png' width="700" height="400">
 
 # Dataset Information
 
