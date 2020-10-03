@@ -17,6 +17,8 @@
 
 https://compressive.herokuapp.com/
 
+<img src='photos/compression1.png' width="700" height="400">
+
 # Dataset Information
 
 Problem Statement
@@ -96,6 +98,6 @@ python run -- app.py
 
 1) First Create app name
 2) Make sure it is connected to GitHub
-<img src='photos/github.png' width="700" height="400">
+<img src='photos/compression2.png' width="700" height="400">
 3) Then click press on Deploy
 
