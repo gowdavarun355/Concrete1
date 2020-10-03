@@ -1,5 +1,5 @@
 # Concrete Compressive Strength prediction
-<img src='photos/images.png' width="700" height="400">
+<img src='photos/images.jpg' width="700" height="400">
 
 # Contents
 - Demo
