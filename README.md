@@ -73,7 +73,7 @@ Create Template
 ```
 
 # Procfile
-A Procfile specifies the commands that are executed by a Heroku app on startup. To create one, open up a new file named Procfile (no extension) in the working directory and paste the following. streamlit command to run our app
+A Procfile specifies the commands that are executed by a Heroku app on startup. To create one, open up a new file named Procfile (no extension) in the working directory and paste the following. Flask command to run our app
 
 ```diff
   web: gunicorn app:app
@@ -90,7 +90,7 @@ The requirements.txt file will contain all of the dependencies for the flask app
 python run -- app.py
 ```
 
-# Deployment of machine learning model in Heroku using Streamlit
+# Deployment of machine learning model in Heroku using Flask
 
 
 1) First Create app name
